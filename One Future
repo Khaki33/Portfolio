@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Future - Vision for Progress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #007acc;
+            color: white;
+            padding: 1rem 0;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        header nav ul li {
+            margin-left: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            background: url('community-field.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 2rem;
+        }
+        .banner h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .banner .buttons {
+            margin-top: 1.5rem;
+        }
+        .banner .buttons a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .intro {
+            padding: 2rem;
+            background: #f9f9f9;
+            text-align: center;
+        }
+        .intro p {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+        }
+        .about {
+            padding: 2rem;
+            background: #fff;
+        }
+        .about h2 {
+            text-align: center;
+            color: #007acc;
+            margin-bottom: 1rem;
+        }
+        .about .content {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        .agenda {
+            padding: 2rem;
+            background: #f9f9f9;
+        }
+        .agenda h2 {
+            text-align: center;
+            color: #007acc;
+            margin-bottom: 1rem;
+        }
+        .agenda ul {
+            max-width: 800px;
+            margin: 0 auto;
+            list-style: none;
+            padding: 0;
+        }
+        .agenda ul li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .projects {
+            padding: 2rem;
+            background: #fff;
+        }
+        .projects h2 {
+            text-align: center;
+            color: #007acc;
+            margin-bottom: 1rem;
+        }
+        .projects ul {
+            max-width: 800px;
+            margin: 0 auto;
+            list-style: none;
+            padding: 0;
+        }
+        .projects ul li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .plan {
+            padding: 2rem;
+            background: #f9f9f9;
+        }
+        .plan h2 {
+            text-align: center;
+            color: #007acc;
+            margin-bottom: 1rem;
+        }
+        .plan p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        .contact {
+            padding: 2rem;
+            background: #fff;
+        }
+        .contact h2 {
+            text-align: center;
+            color: #007acc;
+            margin-bottom: 1rem;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact form button {
+            background: #007acc;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>One Future</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#plan">Plan</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h1>A Vision for Progress</h1>
+        <p>Education, Economic Security, and Environmental Stewardship</p>
+        <div class="buttons">
+            <a href="#join">Join Us</a>
+            <a href="#donate">Donate</a>
+            <a href="#learn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="intro">
+        <p>"Together, we can build a brighter future for our region by prioritizing accessible education, economic opportunities for all, and sustainable solutions for our environment."</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="content">
+            <p><strong>From Educator and Engineer to Advocate for Progress</strong></p>
+            <p><strong>Educational Background:</strong></p>
+            <ul>
+                <li>PhD in Agriculture and Soil Engineering.</li>
+                <li>Master’s in Mechanical Engineering.</li>
+            </ul>
+            <p><strong>Professional Achievements:</strong></p>
+            <ul>
+                <li>Associate Professor at Jomo Kenyatta University of Agriculture and Technology.</li>
+                <li>Developed models to maximize water resource efficiency in arid regions.</li>
+                <li>Innovated drought-resistant irrigation systems using modern technology.</li>
+                <li>Published groundbreaking studies on the untapped agricultural potential of semi-arid lands.</li>
+            </ul>
+            <p>My life’s work has been about solving real problems with real solutions. As your leader, I will bring this same dedication and innovation to our region.</p>
+        </div>
+    </section>
+
+    <section id="agenda" class="agenda">
+        <h2>Agenda</h2>
+        <ul>
+            <li><strong>Education:</strong> Increase funding for schools, integrate technology into classrooms, and offer scholarships for technical fields.</li>
+            <li><strong>Economic Security:</strong> Promote entrepreneurship, create jobs through agricultural innovation, and establish financial literacy programs.</li>
+            <li><strong>Climate and Environment:</strong> Advocate for afforestation, implement sustainable farming practices, and develop eco-friendly water management systems.</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Ongoing Projects</h2>
+        <ul>
+            <li><strong>Green Fields Initiative:</strong> Equipping farmers with modern tools and knowledge to improve yields while protecting the environment. Trained over 500 farmers in water conservation techniques.</li>
+            <li><strong>Education for All:</strong> Introducing solar-powered classrooms and providing e-learning materials. Partnered with NGOs to distribute 1,000 tablets to underserved students.</li>
+            <li><strong>Regional Drought Response Plan:</strong> Developing early-warning systems and drought-resistant irrigation models. Saved over 2,000 acres of farmland from desertification.</li>
+        </ul>
+    </section>
+
+    <section id="plan" class="plan">
+        <h2>Plan for the Region</h2>
+        <p><strong>Fostering Education:</strong> Build more schools in underserved areas, partner with international organizations to fund vocational training programs, and offer free school meals to ensure children stay in school.</p>
+        <p><strong>Ensuring Economic Security:</strong> Set up regional industrial parks to boost manufacturing and create jobs, facilitate access to low-interest loans for small business owners, and expand irrigation systems to increase agricultural output.</p>
+        <p><strong>Championing the Environment:</strong> Launch community tree-planting initiatives with a goal to plant 1 million trees in 5 years, incentivize farmers to adopt sustainable farming methods, and develop clean energy programs, including wind and solar projects, for the community.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
